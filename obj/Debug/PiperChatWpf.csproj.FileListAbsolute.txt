@@ -1,0 +1,15 @@
+D:\College\Sem 6\SOC\Project\PiperChatClient\bin\Debug\WpfApp1.exe.config
+D:\College\Sem 6\SOC\Project\PiperChatClient\bin\Debug\WpfApp1.exe
+D:\College\Sem 6\SOC\Project\PiperChatClient\bin\Debug\WpfApp1.pdb
+D:\College\Sem 6\SOC\Project\PiperChatClient\obj\Debug\PiperChatWpf.csprojAssemblyReference.cache
+D:\College\Sem 6\SOC\Project\PiperChatClient\obj\Debug\MainWindow.g.cs
+D:\College\Sem 6\SOC\Project\PiperChatClient\obj\Debug\App.g.cs
+D:\College\Sem 6\SOC\Project\PiperChatClient\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\College\Sem 6\SOC\Project\PiperChatClient\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\College\Sem 6\SOC\Project\PiperChatClient\obj\Debug\MainWindow.baml
+D:\College\Sem 6\SOC\Project\PiperChatClient\obj\Debug\WpfApp1.g.resources
+D:\College\Sem 6\SOC\Project\PiperChatClient\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\College\Sem 6\SOC\Project\PiperChatClient\obj\Debug\PiperChatWpf.csproj.GenerateResource.cache
+D:\College\Sem 6\SOC\Project\PiperChatClient\obj\Debug\PiperChatWpf.csproj.CoreCompileInputs.cache
+D:\College\Sem 6\SOC\Project\PiperChatClient\obj\Debug\WpfApp1.exe
+D:\College\Sem 6\SOC\Project\PiperChatClient\obj\Debug\WpfApp1.pdb
