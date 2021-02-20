@@ -53,5 +53,10 @@ namespace WpfApp1
             var window = new Window2();
             window.ShowDialog();
         }
+
+        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

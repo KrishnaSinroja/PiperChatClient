@@ -3,10 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="Window2" Height="450" Width="800">
-    <Grid>
+    <!--<Grid>
         <Label Content="SignIn" HorizontalAlignment="Left" Margin="374,34,0,0" VerticalAlignment="Top"/>
         <Label Content="Email" HorizontalAlignment="Left" Margin="294,77,0,0" VerticalAlignment="Top"/>
         <Label Content="Password" HorizontalAlignment="Left" Margin="294,108,0,0" VerticalAlignment="Top"/>
@@ -14,5 +15,47 @@
         <TextBox Name="TPassword" HorizontalAlignment="Left" Height="23" Margin="374,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button Content="SignIn" HorizontalAlignment="Left" Margin="446,159,0,0" VerticalAlignment="Top" Width="75" Click="Login"/>
 
+    </Grid>-->
+
+    <Grid MouseDown="Border_MouseDown">
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0.1,0" EndPoint="0.9,1">
+                <GradientStop Color="Green"/>
+                <GradientStop Color="Green"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Border Height="390" VerticalAlignment="Top" CornerRadius="0 0 180 0" Background="#FFE4E4E4" MouseDown="Border_MouseDown" Margin="0,-26,0,0">
+        </Border>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Width="350">
+                <Image Source="Images/ICON4801.png" Width="300" Height="300" VerticalAlignment="Top" Margin="30" Stretch="Fill" />
+            </StackPanel>
+            <StackPanel Width="350">
+                <StackPanel Margin="20 40">
+                    <TextBlock Text="User Login" Margin="20" Foreground="Green" TextAlignment="Center" FontSize="38" FontFamily="Great Vibes"></TextBlock>
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <materialDesign:PackIcon Kind="User" Width="25" Height="25" Foreground="Green"/>
+                        <TextBox x:Name="TEmail" Margin="10 0" materialDesign:HintAssist.Hint="Enter Email" Foreground="Green" Width="250" BorderBrush="Green" CaretBrush="Green" SelectionBrush="Green" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <materialDesign:PackIcon Kind="Lock" Width="25" Height="25" Foreground="Green"/>
+                        <TextBox x:Name="TPassword" Margin="10 0" materialDesign:HintAssist.Hint="********" Foreground="Green" Width="250" BorderBrush="Green" CaretBrush="Green" SelectionBrush="Green" />
+                    </StackPanel>
+                    <StackPanel Margin="10" HorizontalAlignment="Center">
+                        <Button Width="100" Height="40" Style="{StaticResource MaterialDesignRaisedButton}" 
+                         materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="2" BorderBrush="Green"
+                         Background="Green" Foreground="White" ToolTip="Login" x:Name="btnLogin" Click="btnLogin_Click" Content="Login">
+                        </Button>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Width="100">
+                <Button Margin="10 20" Style="{StaticResource MaterialDesignFloatingActionButton}" Background="{x:Null}"
+                 ToolTip="Close" x:Name="btnExit" Click="btnExit_Click">
+                    <materialDesign:PackIcon Kind="Close" Foreground="Green" Width="30" Height="30" />
+                </Button>
+            </StackPanel>
+        </StackPanel>
     </Grid>
+
 </Window>
